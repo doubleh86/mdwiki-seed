@@ -50,6 +50,10 @@
 
 [Programming Language]()
 
+  * [C#](pages/frontend.md)
+  * [Python](pages/frontend.md)
+  * [PHP](pages/frontend.md)
+
 <!--
   -- Change the Language
   -- Could be useful when there's more than one language wiki.
