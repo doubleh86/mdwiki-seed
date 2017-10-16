@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# 삽질 방지를 위한 위키
 
 
 <!--
