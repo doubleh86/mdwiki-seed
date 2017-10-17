@@ -64,9 +64,6 @@
 
 [System]()
 
-  * [English (United States)](/en_US/)
-  * [English (United Kingdom)](/en_GB/)
-  * [Italian](/it/)
   * [Docker](pages/docker.md)
 
 [About](pages/about.md)
