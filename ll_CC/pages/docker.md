@@ -31,6 +31,11 @@ docker container 실행 및 접속
 docker run -it image name
 ```
 
+docker image 변경 사항 커밋
+```
+docker commit container id centos7-python36
+```
+
 ## Docker image 만들기
 
 1. Docker Container에 접속 후 필요한 시스템을 설치 한다. ( ex) mysql, python... )
