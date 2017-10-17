@@ -62,7 +62,7 @@
   -->
 
 
-[Change the Language]()
+[System]()
 
   * [English (United States)](/en_US/)
   * [English (United Kingdom)](/en_GB/)
