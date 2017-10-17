@@ -5,3 +5,18 @@
 ```
 https://store.docker.com/editions/community/docker-ce-desktop-mac
 ```
+
+
+
+## Docker 명령어
+
+현재 실행 중인 container 찾기
+```
+docker ps -a
+```
+
+이미 실행되어 있는 container에 접속.
+
+```
+root@~~# docker exec -it  container id /bin/bash
+```
