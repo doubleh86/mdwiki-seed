@@ -31,16 +31,13 @@ docker container 실행 및 접속
 docker run -it image name
 ```
 
-docker image 변경 사항 커밋
-```
-docker commit container id centos7-python36
-```
 
-## Docker image 만들기
+## Docker image 만들기 및 변경 사항 커밋
 
 1. Docker Container에 접속 후 필요한 시스템을 설치 한다. ( ex) mysql, python... )
 2. shell에서 exit 명령어로 컨테이너를 나오면 해당 컨테이너 프로세스 종료하므로, 다른 콘솔을 실행시킨다.
 3. 아래 명령어 실행
+4. -m 커밋 메시지, -a 작성자
 
 ```
 docker commit -m "What did you do to the image" -a "Author Name" container-id repository/new_image_name
