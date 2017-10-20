@@ -20,7 +20,15 @@
 
  위 와 같이 변경한다.
 
- ## Facebook Access Token Verify
+## Facebook Access Token Verify
 
- https://developers.facebook.com/docs/accountkit/graphapi
+아래와 같은 url을 호출하면 유저의 access_token 의 유효한지 확인 할 수 있다.
 
+```
+https://graph.facebook.com/debug_token?input_token=app-id|app_secret_id&access_token=user_access_token
+
+```
+
+## 참고 사이트
+
+https://stackoverflow.com/questions/5406859/facebook-access-token-server-side-validation-for-iphone-app
