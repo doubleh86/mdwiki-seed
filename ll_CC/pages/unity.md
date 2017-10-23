@@ -29,6 +29,46 @@ https://graph.facebook.com/debug_token?input_token=app-id|app_secret_id&access_t
 
 ```
 
+## Google Sign-In 
+
+plug-in download 
+
+```
+https://github.com/googlesamples/google-signin-unity
+```
+
+근데 Package는 어디 있는 것일까??
+
+Back-end 인증의 경우 (php)
+```
+composer require google/apiclient
+```
+
+추가 후 
+
+```
+require_once 'vendor/autoload.php';
+
+// Get $id_token via HTTPS POST.
+
+$client = new Google_Client(['client_id' => $CLIENT_ID]);
+$payload = $client->verifyIdToken($id_token);
+if ($payload) {
+  $userid = $payload['sub'];
+  // If request specified a G Suite domain:
+  //$domain = $payload['hd'];
+} else {
+  // Invalid ID token
+}
+```
+
+end-point 사용 방법
+ 
+ - https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=XYZ123
+
+해당 방법의 경우 client-id를 비교해야 한다. 
+
 ## 참고 사이트
 
 https://stackoverflow.com/questions/5406859/facebook-access-token-server-side-validation-for-iphone-app
+https://developers.google.com/identity/sign-in/android/backend-auth
