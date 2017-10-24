@@ -34,6 +34,11 @@ docker container 실행 및 접속
 docker run -it image name
 ```
 
+현재 설치된 docker image list 보기
+
+```
+docker image list
+```
 
 ## Docker image 만들기 및 변경 사항 커밋
 
