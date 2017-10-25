@@ -69,6 +69,10 @@
   
   * [Docker](pages/docker.md)
 
+[Language]()
+
+  * [Python](pages/python.md)  
+
 [Game]()
 
   * [Unity](pages/unity.md)

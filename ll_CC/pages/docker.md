@@ -40,6 +40,12 @@ docker run -it image name
 docker image list
 ```
 
+이미지 삭제
+
+```
+docker rmi [imageId]
+```
+
 ## Docker image 만들기 및 변경 사항 커밋
 
 1. Docker Container에 접속 후 필요한 시스템을 설치 한다. ( ex) mysql, python... )
