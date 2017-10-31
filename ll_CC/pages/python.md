@@ -20,7 +20,7 @@ plt.savefig('./name.png')
 
 ```
 
-## matplotlib 와 psutil을 이용한 그래피 그리기 예제 
+## matplotlib 와 psutil을 이용한 그래프 그리기 예제 
 
 ```python
 
