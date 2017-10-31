@@ -7,9 +7,18 @@
 
 2. brew install python3 실행	
 
-## matplotlib docker 실행 시 png로 이미지 저장
+## python 웹 서버 실행 
 
 ```
+python3.6 -m http.server ( python 3.x )
+
+python -m SimpleHTTPServer ( python 2.x )
+
+```
+
+## matplotlib docker 실행 시 png로 이미지 저장
+
+```p
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -239,7 +248,7 @@ class SystemInfo(object):
 
 ```
 
-## Tensorflow 참고 사이트
+## 참고 사이트
 
 - 튜토리얼
 https://github.com/golbin/TensorFlow-Tutorials

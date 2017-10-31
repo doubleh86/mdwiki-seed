@@ -71,7 +71,8 @@
 
 [Language]()
 
-  * [Python](pages/python.md)  
+  * [Python](pages/python.md) 
+  * [CSharp](pages/csharp.md) 
 
 [Game]()
 
