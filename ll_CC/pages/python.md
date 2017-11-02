@@ -257,6 +257,33 @@ await websocket.send(str.encode(greeting))
 
 ```
 
+- WebSocket library 
+
+```
+	https://github.com/crossbario/autobahn-python
+	https://pawelmhm.github.io/python/websockets/2016/01/02/playing-with-websockets.html
+```
+
+## Python Type hinting
+
+
+
+```Python
+# https://www.python.org/dev/peps/pep-0526/
+
+from typing import Dict, List
+
+class MyClass(object):
+	def __init__(self):
+		
+		self.myDict # type: Dict[str, int]
+		
+		self.myDict2: Dict[str, User] = {}
+		
+		self.myList # type: List[int]
+
+```
+
 ## 참고 사이트
 
 - 튜토리얼
