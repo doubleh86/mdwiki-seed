@@ -68,6 +68,7 @@
 [System]()
   
   * [Docker](pages/docker.md)
+  * [CentOS](pages/centos.md)
 
 [Language]()
 

@@ -248,6 +248,15 @@ class SystemInfo(object):
 
 ```
 
+## Python Websocket Server / Unity WebGL Client
+
+- Server <-> Client 패킷 전송을 위해 Python Server 에선 string 데이터를 bytes로 변환하여 보내야한다. 
+```Python
+
+await websocket.send(str.encode(greeting))
+
+```
+
 ## 참고 사이트
 
 - 튜토리얼
