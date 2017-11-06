@@ -20,6 +20,12 @@
 
  위 와 같이 변경한다.
 
+## Unity3d Project 여러개 띄우기
+
+```
+	open -na Unity
+```
+
 ## Facebook Access Token Verify
 
 아래와 같은 url을 호출하면 유저의 access_token 의 유효한지 확인 할 수 있다.
@@ -70,6 +76,11 @@ end-point 사용 방법
 
 ## Unity3D WebGL
 - Unity3D WebGL의 경우 Direct Socket를 사용할 수 없다. 실시간을 구현하려면 웹소켓으로 구현해야한다.
+- Asset Store : https://www.assetstore.unity3d.com/kr/#!/content/38367
+- 위 URL 의 asset을 설치 한다.
+
+- 예제 
+	- https://github.com/DarkDesire/Unity3D-WebSocket-Client
 
 ## 참고 사이트
 
