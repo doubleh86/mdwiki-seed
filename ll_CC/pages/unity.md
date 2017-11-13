@@ -75,6 +75,7 @@ end-point 사용 방법
 해당 방법의 경우 client-id를 비교해야 한다. 
 
 ## Unity3D WebGL
+
 - Unity3D WebGL의 경우 Direct Socket를 사용할 수 없다. 실시간을 구현하려면 웹소켓으로 구현해야한다.
 - Asset Store : https://www.assetstore.unity3d.com/kr/#!/content/38367
 - 위 URL 의 asset을 설치 한다.

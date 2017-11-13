@@ -282,6 +282,20 @@ class MyClass(object):
 
 ```
 
+## Python backend - C# list json 사용 시 유의사항
+
+- python 에서 str(list) 를 사용하여 문자열 데이터를 assign한 후 json 문자열로 변환 하면 문자열이 "{'data': 'test'}" 이런식으로 " ' " 가 붙는다. C# 클라이언트의 경우 " ' " 문자열로 인식을 못하여 json을 object 시키지 못한다. object에 list 데이터를 그대로 넣고 ujson.dumps()를 하면 {"data": "test"} 이런식으로 문자열이 만들어 진다. ( 아래 예제는 ujson package를 사용 함. )
+
+```python
+	class jsonConvertObject(object):
+		def __init__(self, list_data: List[str]):
+			self.data = list_data
+
+		def convert_to_json_string(object):
+			return ujson.dumps(self)
+
+```
+
 ## Python command pattern
 
 - https://github.com/doubleh86/Design-Patterns-in-Python/blob/master/command.py
