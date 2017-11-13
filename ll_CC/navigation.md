@@ -69,6 +69,7 @@
   
   * [Docker](pages/docker.md)
   * [CentOS](pages/centos.md)
+  * [MacOS](pages/macos.md)
 
 [Language]()
 

@@ -266,8 +266,6 @@ await websocket.send(str.encode(greeting))
 
 ## Python Type hinting
 
-
-
 ```Python
 # https://www.python.org/dev/peps/pep-0526/
 
@@ -283,6 +281,10 @@ class MyClass(object):
 		self.myList # type: List[int]
 
 ```
+
+## Python command pattern
+
+- https://github.com/doubleh86/Design-Patterns-in-Python/blob/master/command.py
 
 ## 참고 사이트
 

@@ -1,6 +1,7 @@
 # CentOS
 
 ## Command
+
 find process
 
 ```
@@ -11,3 +12,4 @@ kill process
 ```
 kill -9 pid
 ```
+
