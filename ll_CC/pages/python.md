@@ -266,7 +266,7 @@ await websocket.send(str.encode(greeting))
 
 ## Python Type hinting
 
-```Python
+```python
 # https://www.python.org/dev/peps/pep-0526/
 
 from typing import Dict, List
