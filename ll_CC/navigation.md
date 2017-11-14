@@ -70,6 +70,7 @@
   * [Docker](pages/docker.md)
   * [CentOS](pages/centos.md)
   * [MacOS](pages/macos.md)
+  * [Git](pages/git.md)
 
 [Language]()
 
