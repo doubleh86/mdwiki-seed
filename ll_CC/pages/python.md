@@ -296,6 +296,17 @@ class MyClass(object):
 
 ```
 
+## Python namedTuple로 객체 만들기
+
+namedtuple('Object Name', 'variable_1 variabel_2 ... ')
+
+```python
+Memory = namedtuple('Memory', 'total percent available used')
+memory = Memory(100, 20, 30, 40)
+
+print(memory.total)
+```
+
 ## Python command pattern
 
 - https://github.com/doubleh86/Design-Patterns-in-Python/blob/master/command.py
