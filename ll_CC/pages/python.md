@@ -18,7 +18,8 @@ python -m SimpleHTTPServer ( python 2.x )
 
 ## matplotlib docker 실행 시 png로 이미지 저장
 
-```p
+```python
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -306,6 +307,23 @@ Memory = namedtuple('Memory', 'total percent available used')
 memory = Memory(100, 20, 30, 40)
 
 print(memory.total)
+```
+
+## Python 3항 연산
+
+```
+방법 1 and or 사용:
+    (Condition) and (Condition True) or (Condition False)
+
+    이 방법을 사용하였을 경우 아래와 같은 경우 0이 False를 의미 하기 때문에 원하는 결과가 나오지 않는다.
+
+    a = 10
+    b = 10
+    result = a == b and a-b or a+b    # 결과는 a+b = 20 ???????
+
+
+방법 2 if else 사용:
+    (Condition True) if (Condition) else (Condition False)
 ```
 
 ## Python command pattern
