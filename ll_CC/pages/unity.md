@@ -106,6 +106,10 @@ static public string clipboard
 
 ```
 
+## Unity3D WebGL template 추가 참고 URL
+
+ - https://docs.unity3d.com/Manual/webgl-templates.html 
+
 ## 참고 사이트
 
 https://stackoverflow.com/questions/5406859/facebook-access-token-server-side-validation-for-iphone-app
