@@ -83,8 +83,32 @@ end-point 사용 방법
 - 예제 
 	- https://github.com/DarkDesire/Unity3D-WebSocket-Client
 
+## 클립보드 복사
+
+```
+
+static public string clipboard
+  {
+    get
+    {
+      TextEditor te = new TextEditor();
+      te.Paste();
+      return te.content.text;
+    }
+    set
+    {
+      TextEditor te = new TextEditor();
+      te.content = new GUIContent(value);
+      te.OnFocus();
+      te.Copy();
+    }
+  }
+
+```
+
 ## 참고 사이트
 
 https://stackoverflow.com/questions/5406859/facebook-access-token-server-side-validation-for-iphone-app
 https://developers.google.com/identity/sign-in/android/backend-auth
 https://docs.unity3d.com/kr/current/Manual/webgl-networking.html
+http://flystone.tistory.com/138
