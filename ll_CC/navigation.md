@@ -89,6 +89,7 @@
 [ETC]()
 
   * [TODO](pages/todo.md)
+  * [ETC](pages/etc.md)
 
 [About](pages/about.md)
 
