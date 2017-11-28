@@ -71,6 +71,7 @@
   * [CentOS](pages/centos.md)
   * [MacOS](pages/macos.md)
   * [Git](pages/git.md)
+  * [Vagrant](pages/vagrant.md)
 
 [Language]()
 

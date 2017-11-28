@@ -110,6 +110,24 @@ static public string clipboard
 
  - https://docs.unity3d.com/Manual/webgl-templates.html 
 
+## Unity3D Camera View Size 구하기 (ScreenSize 아님)
+
+```
+
+    public class CameraHelper
+    {
+        public static List<float> CameraViewWidthHeight(Camera targetCamera)
+        {
+            
+            var height = 2 * targetCamera.orthographicSize;
+            var width = height * targetCamera.aspect;
+
+            return new List<float>() {height, width};
+        }
+    }
+
+```
+
 ## 참고 사이트
 
 https://stackoverflow.com/questions/5406859/facebook-access-token-server-side-validation-for-iphone-app
