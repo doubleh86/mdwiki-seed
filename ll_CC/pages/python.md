@@ -326,6 +326,20 @@ print(memory.total)
     (Condition True) if (Condition) else (Condition False)
 ```
 
+## Pylint install
+
+- pip install ( python 3.x ) 
+
+```
+    $ pip3.6 install pylint
+```
+
+- pycharm setting 
+
+```
+    https://stackoverflow.com/questions/38134086/how-to-run-pylint-with-pycharm
+```
+
 ## Python command pattern
 
 - https://github.com/doubleh86/Design-Patterns-in-Python/blob/master/command.py
