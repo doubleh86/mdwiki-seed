@@ -77,6 +77,7 @@
 
   * [Python](pages/python.md) 
   * [CSharp](pages/csharp.md) 
+  * [PHP](pages/php.md)
 
 [Game]()
 
