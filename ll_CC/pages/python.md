@@ -348,3 +348,6 @@ print(memory.total)
 
 - 튜토리얼
 https://github.com/golbin/TensorFlow-Tutorials
+
+- Memory 최적화
+http://tech.oyster.com/save-ram-with-python-slots/
