@@ -77,4 +77,5 @@
  2. $ npm install @types/react 
 
 ## 참고 사이트
- https://velopert.com/
+https://blog.jetbrains.com/webstorm/2015/10/working-with-reactjs-in-webstorm-coding-assistance/
+https://velopert.com/
