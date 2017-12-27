@@ -76,6 +76,11 @@
  1. File > Default Settings > Languages & Frameworks > JavaScript 의 JavaScript language Version React JSX 로 변경
  2. $ npm install @types/react 
 
+## React Router 
+ 
+ 1. 설치
+ 	 - $ npm install --save react-router
+
 ## 참고 사이트
 https://blog.jetbrains.com/webstorm/2015/10/working-with-reactjs-in-webstorm-coding-assistance/
 https://velopert.com/
