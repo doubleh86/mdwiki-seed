@@ -351,3 +351,6 @@ https://github.com/golbin/TensorFlow-Tutorials
 
 - Memory 최적화
 http://tech.oyster.com/save-ram-with-python-slots/
+
+- 파이썬 기본 문법
+

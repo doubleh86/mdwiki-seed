@@ -12,3 +12,5 @@
  5. "$ php --ini" 명령어 실행
  6. "$ sudo service httpd restart" 명렁어로 웹서버 재실행
 
+ -> yum --enablerepo=remi-php71 <= 여기로 변경되었습니다. 위와 같이 쓰지 마세요!
+
