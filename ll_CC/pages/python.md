@@ -340,6 +340,10 @@ print(memory.total)
     https://stackoverflow.com/questions/38134086/how-to-run-pylint-with-pycharm
 ```
 
+## 기본 문법들
+ - list
+ -1- https://codeburst.io/python-basics-6-lists-and-list-manipulation-a56be62b1f95
+
 ## Python command pattern
 
 - https://github.com/doubleh86/Design-Patterns-in-Python/blob/master/command.py
