@@ -14,3 +14,14 @@
 
  -> yum --enablerepo=remi-php71 <= 여기로 변경되었습니다. 위와 같이 쓰지 마세요!
 
+## phpdocumentor 
+ 
+ 1. phpdocumentor.phar 파일 다운 ( composer로 할 시 디펜던시 에러가 남. twig 같은 놈들... )
+ 2. php phpdocumentor.phar ./src -t ./docs/api 명령어 실행
+
+## apidoc
+ - http://apidocjs.com/
+
+## laravel Eloquent using without laravel framework
+ - composer.json add to 'composer require illuminate/database'
+ - github : https://github.com/illuminate/database
