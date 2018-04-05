@@ -14,6 +14,13 @@
 
  -> yum --enablerepo=remi-php71 <= 여기로 변경되었습니다. 위와 같이 쓰지 마세요!
 
+## php array 마지막 데이터 가져오기
+```php
+	
+	$temp_array = ['1', '2', '3'];
+	$last_data = end($temp_array);
+```
+
 ## phpdocumentor 
  
  1. phpdocumentor.phar 파일 다운 ( composer로 할 시 디펜던시 에러가 남. twig 같은 놈들... )
