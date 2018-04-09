@@ -16,7 +16,6 @@
 
 ## php array 마지막 데이터 가져오기
 ```php
-	
 	$temp_array = ['1', '2', '3'];
 	$last_data = end($temp_array);
 ```
