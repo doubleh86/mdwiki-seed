@@ -326,6 +326,20 @@ print(memory.total)
     (Condition True) if (Condition) else (Condition False)
 ```
 
+
+## Abstract class
+```python
+from abc import *
+
+class AbstractClass(metaclass=ABCMeta):
+    def __init__(self):
+        pass
+
+    @abstractmethod
+    def abstract_method(self):
+        pass
+
+```
 ## Pylint install
 
 - pip install ( python 3.x ) 
