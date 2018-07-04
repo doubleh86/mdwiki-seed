@@ -15,3 +15,11 @@ mongodump --host 127.0.0.1
 임의의 숫자의 마지막 3 바이트. ( PHP mongodb 드라이버의 경우 순차 증가 )
 
 ```
+
+## MongoDB log 
+ - db.setProfilingLevel (1, 500)
+ - db.setProfilingLevel(0)
+ - db.adminCommand ({logRotate : 1})
+
+## 참고 
+ - http://blog.naver.com/PostView.nhn?blogId=humongousdb&logNo=220090673510&parentCategoryNo=&categoryNo=15&viewDate=&isShowPopularPosts=false&from=postView
