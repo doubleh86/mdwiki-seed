@@ -20,5 +20,9 @@ mongodump --host 127.0.0.1
  - db.setProfilingLevel(0)
  - db.adminCommand ({logRotate : 1})
 
+## index find
+ - grep nscanned /path/to/mongodb.log | grep -v "nscanned:1 " | grep -v "nscanned:0 "
+
 ## 참고 
  - http://blog.naver.com/PostView.nhn?blogId=humongousdb&logNo=220090673510&parentCategoryNo=&categoryNo=15&viewDate=&isShowPopularPosts=false&from=postView
+ - https://stackoverflow.com/questions/9191615/mongodb-warn-about-query-not-using-index
