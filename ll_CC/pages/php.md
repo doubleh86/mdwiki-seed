@@ -25,6 +25,12 @@
  1. phpdocumentor.phar 파일 다운 ( composer로 할 시 디펜던시 에러가 남. twig 같은 놈들... )
  2. php phpdocumentor.phar ./src -t ./docs/api 명령어 실행
 
+## php version update for centOS
+
+```
+	https://blog.asamaru.net/2018/02/14/install-php-7-2-on-centos-with-remi-rpm-repository/
+```
+
 ## apidoc
  - http://apidocjs.com/
 

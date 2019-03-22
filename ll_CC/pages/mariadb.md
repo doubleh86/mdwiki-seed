@@ -9,6 +9,11 @@
 - 로그 세팅 적용
  -> flush logs;
 
+## 권한 주기
+```
+grant all privileges on *.* to '계정명'@'%' identified by '비밀번호';
+```
+
 ## Mysql (Maria) 기본 세팅
 
 ```
@@ -41,6 +46,11 @@ innodb_flush_method=O_DIRECT
 innodb_io_capacity=1000
 innodb_old_blocks_time=1000
 innodb_open_files=5000
+
+slow-query-log=1
+log-queries-not-using-indexes
+long_query_time=1
+log-slow-queries=/var/log/mysql/log-slow-queries.log
 
 [mysql]
 !includedir /etc/mysql/conf.d
