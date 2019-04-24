@@ -339,6 +339,11 @@ class AbstractClass(metaclass=ABCMeta):
     def abstract_method(self):
         pass
 
+    @classmethod
+    @abstractmethod
+    def abstract_class_method(cls, event_data: dict):
+        pass
+
 ```
 ## Pylint install
 
