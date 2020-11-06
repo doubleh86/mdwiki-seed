@@ -9,3 +9,5 @@
 /// <summary>
 
 ```
+
+dotnet core 많이 바꼈다잉?
